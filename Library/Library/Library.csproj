@@ -74,7 +74,6 @@
     <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookCopy.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="LibraryForm.cs">
       <SubType>Form</SubType>
     </Compile>
