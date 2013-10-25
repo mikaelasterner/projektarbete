@@ -17,6 +17,10 @@ namespace Library.Repositories
         }
 
         // add factory methods for your repositories here..
-
+        public static BookRepository GetBookRepository()
+        {
+            return new BookRepository(RepositoryFactory.context);
+        }
+        
     }
 }

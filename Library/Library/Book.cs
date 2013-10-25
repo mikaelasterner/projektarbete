@@ -8,7 +8,8 @@ namespace Library
 {
     class Book
     {
-        public int Id { get; set; }
+        //[Key]
+        public int ISBN { get; set; }
         public string Title { get; set; }
 
         public Author Author { get; set; }

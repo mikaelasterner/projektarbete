@@ -16,6 +16,17 @@ namespace Library.Models
             base.Seed(context);
 
             // seeding data goes here..
+            Author alexDumas = new Author()
+            {
+                Name = "Alexandre Dumas"
+            };
+            Book monteCristo = new Book()
+            {
+                Title = "The Count of Monte Cristo",
+                Author = alexDumas
+            };
+            context.Books.Add(monteCristo);
+            context.SaveChanges();
         }
     }
 }

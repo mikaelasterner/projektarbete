@@ -10,5 +10,10 @@ namespace Library
     {
         public int Id { get; set; }
         public DateTime Time {get; set;}
+        public Member Loaner { get; private set; }
+        public Loan(Member loaner) { 
+            Loaner = loaner; 
+            Time = System.DateTime.Now; 
+        }
     }
 }

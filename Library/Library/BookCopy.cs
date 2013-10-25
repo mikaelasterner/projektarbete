@@ -10,5 +10,6 @@ namespace Library
     {
         int id { get; set; }
         Book Book { get; set; }
+        public BookCopy(Book original) {}
     }
 }
