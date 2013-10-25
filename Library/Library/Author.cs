@@ -12,7 +12,5 @@ namespace Library
         public string Name { get; set; }
 
         public ICollection<Book> Books { get; set; }
-        //// testing
-        //test 2
     }
 }
