@@ -13,7 +13,7 @@ namespace Library
 
         public Author Author { get; set; }
 
-        public string? Description { get; set; }
+        public string Description { get; set; }
         public int? Copies { get; set; }
     }
 }
